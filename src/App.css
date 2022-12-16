@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+html{
+  height: 100vh;
+}
+body{
+  
+    background: linear-gradient(222deg,#b06a6a, #020203);
+}
+.form-control{
+  width: 30%;
+  margin: 0.4rem;
+  padding: 0.3rem;
+}
+.chart-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.chart-container canvas{
+  width: 67% !important;
+  height: 70% !important;
+}
+.text-warning{
+  font-family: cursive;
+}
+.text-danger {
+  font-family:  cursive;
+  color: #ff0018!important;
+}
